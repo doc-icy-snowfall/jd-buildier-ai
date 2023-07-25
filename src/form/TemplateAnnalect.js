@@ -7,8 +7,7 @@ import { StateContext } from '../Context';
 
 const TemplateAnnalect = ({handlePageForm}) => {
     const [data, setData] = useState([]);
-    const { nwExstngRole, setNwExstngRole, nwBonusPoint, setNwBonusPoint, nwQuaRequ, setNwQuaRequ, 
-        nwCity, setNwCity, nwPositionData , setNwPositionData } = useContext(StateContext);
+    const { nwExstngRole, nwQuaRequ, nwCity, nwPositionData } = useContext(StateContext);
   useEffect(()=>{
     const local_data = localStorage.getItem('all_data');
     const jsonData = JSON.parse(local_data);
@@ -51,24 +50,19 @@ const TemplateAnnalect = ({handlePageForm}) => {
                 <img className='imgSize' src={annalect_logo} />
             </Grid>
         </Grid>
-        <Grid item className='hrpsitnSec'>
-            <Typography>We Are looking for</Typography>
-            <Typography className='greentxt' 
-                sx={{fontSize:'2em !important', marginTop: '-10px !important'}}>
-                    {nwPositionData.position}</Typography>
-            
-        </Grid>
         <Grid container className='locSec'>
             <Grid item xs={6} md={6} className='jdsec'>
-                <Typography>Location:
+                <Typography className='greentxt jdtitle'>
+                        {nwPositionData.position}</Typography>
+                <Typography className='jddesc'> Location :
                 {nwCity.location.map((index, i) => (
                     <React.Fragment key={index}>
-                    <span>{index}</span>
+                    <span> {index} </span>
                     {i !== nwCity.location.length - 1 && <span> \ </span>}
                     </React.Fragment>
                 ))}
                 </Typography>
-                <Typography >www.annalect.com/in</Typography>
+                <Typography  className='jddesc'>www.annalect.com/in</Typography>
             </Grid>
             <Grid item xs={6} md={6} className='lctnSec'>
             <Typography className='paratxt'>
@@ -77,7 +71,7 @@ const TemplateAnnalect = ({handlePageForm}) => {
             </Grid>
         </Grid>
         <Grid item className='abtCompny'>
-            <Typography className='greentxt'>About Annalect India</Typography>
+            <Typography className='greentxt'>About Us</Typography>
             <Typography  className='paratxt'>
                 We are an integral part of Annalect Global and Omnicom Group, the second largest advertising agency holding
                 company in the world in terms of revenue and is the leading global marketing communications company. Our
@@ -91,17 +85,9 @@ const TemplateAnnalect = ({handlePageForm}) => {
                 business issues. We are growing rapidly and looking for talented professionals like you to be part of this journey.
                 Let us build this, together!
             </Typography>
-            {/* <Typography className='greentxt'>Let us build this, together!</Typography> */}
         </Grid>
-        <hr style={{width:'20%'}}></hr>
         <Grid container className='rlsnrespo'>
             <Grid item xs={6} md={6}>
-                {/* <Box className='workclslysec' >
-                    <Typography className='greentxt'>You will be working closely with</Typography>
-                    <Typography  className='paratxt'>
-                        {nwPositionData.you_work_closely}
-                    </Typography>
-                </Box> */}
                 <Box className='roledescr'>
                     <Typography className='greentxt'>This is an exciting role and would entail you to</Typography>
                     <ul  className='paratxt ultxt'>
@@ -110,15 +96,6 @@ const TemplateAnnalect = ({handlePageForm}) => {
                         ))}
                     </ul>
                 </Box>
-                {/* <Box className='desirable' >
-                    <Typography sx={{fontWeight: '700', 
-                    fontSize: '0.7em', marginTop: '0.5em'}}>Desirable:</Typography>
-                    <ul  className='paratxt ultxt'>
-                        {nwBonusPoint.map((des_data, index) =>(
-                            <li key={index}>{des_data.b_point}</li>
-                        ))}
-                    </ul>
-                </Box> */}
             </Grid>
             <Grid item xs={12} md={6}>
                 <Box className='reqdescsec'>

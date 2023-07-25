@@ -182,7 +182,7 @@ const Form = ({handlePageTemplate}) => {
                     <FormGroup>
                         <Grid container>
                             <Grid item xs={6} md={4}>
-                                <FormControlLabel value='All_Annalect_India_Office' onChange={handlealloccheck} 
+                                <FormControlLabel value='All Annalect India Office' onChange={handlealloccheck} 
                                 className='ckbox' control={<Checkbox checked={isAllLocChecked} />} label="All Annalect India Office" />
                             </Grid>
                         </Grid>

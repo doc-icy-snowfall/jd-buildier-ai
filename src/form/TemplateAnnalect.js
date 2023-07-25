@@ -87,7 +87,7 @@ const TemplateAnnalect = ({handlePageForm}) => {
             </Typography>
         </Grid>
         <Grid container className='rlsnrespo'>
-            <Grid item xs={6} md={6}>
+            <Grid item xs={6} md={6} sx={{borderRight: '1px solid'}}>
                 <Box className='roledescr'>
                     <Typography className='greentxt'>This is an exciting role and would entail you to</Typography>
                     <ul  className='paratxt ultxt'>
@@ -111,11 +111,10 @@ const TemplateAnnalect = ({handlePageForm}) => {
     </div>
     <div id='annalect_footer' className='template'>
         <Grid item className='footer'>
-            <hr style={{width: '25%'}} />
-            <Typography className='paratxt' sx={{marginBottom:'-10px'}}>Are you ready? Send your resume at<br />
-            <span className='greentxt'><b>careers.india@annalect.com</b></span><br />
-                We are an equal opportunity employer and value diversity.<br/>All employment is decided on 
-                the basis of qualifications, merit and business need.
+            <Typography className='paratxt' sx={{marginBottom:'-10px'}}>Sounds interesting?<br />
+            <span className='greentxt'>Let’s connect: <b>Careers.India@annalect.com</b></span><br />
+            We are an equal opportunity employer and value diversity.<br />
+            All employment is decided on the basis of qualifications, merit and business need.
                 </Typography>
         </Grid>
     </div>

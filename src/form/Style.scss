@@ -152,10 +152,10 @@
 
 }
 .template{
-    width: 555px;
+    width: 540px;
     margin: auto;
     text-align: left;
-    margin: 1.5em;
+    margin: 2em;
 }
 .hrpsitnSec{
     text-align: center;
@@ -185,7 +185,7 @@
         margin-top: 0.5em;
     }
     .paratxt{
-        font-size: 0.6em !important;
+        font-size: 10px !important;
         .greentxt{
             font-size: 1em !important;
         }
@@ -213,7 +213,7 @@
                 margin-top: -10px !important;
             }
             .jddesc{
-                font-size: 0.6em !important;
+                font-size: 10px !important;
             }
         }
     }
@@ -232,17 +232,17 @@
 .greentxt{
     color: #2fc3c6;
     font-weight: 700 !important;
-    font-size: 0.7em !important;
+    font-size: 12px !important;
     margin-top: 0.5em !important;
 }
 .paratxt{
-    font-size: 0.6em !important;
+    font-size: 10px !important;
     .greentxt{
         font-size: 1em !important;
     }
 }
 .ultxt{
-    margin: 0px 0px 0px -15px !important
+    margin: 0px 0px 0px -27px !important
 }
 .locSec{
     min-height: 90px;
@@ -252,7 +252,7 @@
         padding-right: 3px !important;
         // border-left: 1px solid;
         .paratxt{
-            font-size: 0.6em !important;
+            font-size: 10px !important;
             padding: 1em 0em 1em 1em;
         }
     }
@@ -268,12 +268,19 @@
             margin: 5px 0;
         }
         .jddesc{
-            font-size: 0.6em !important;
+            font-size: 10px !important;
         }
     }
 }
 .rlsnrespo{
     min-height: 160px;
+    margin-top: 15px;
+    .roledescr{
+        padding: 10px;
+    }
+    .reqdescsec{
+        padding: 10px;
+    }
 }
 
 .footer{

@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/jd-buildier-ai/static/css/main.041f3fc2.css",
+    "main.js": "/jd-buildier-ai/static/js/main.35ccc93b.js",
+    "static/js/498.1350dca0.chunk.js": "/jd-buildier-ai/static/js/498.1350dca0.chunk.js",
+    "static/js/703.a723f40b.chunk.js": "/jd-buildier-ai/static/js/703.a723f40b.chunk.js",
+    "static/js/617.a93af0be.chunk.js": "/jd-buildier-ai/static/js/617.a93af0be.chunk.js",
+    "static/js/787.64b67409.chunk.js": "/jd-buildier-ai/static/js/787.64b67409.chunk.js",
+    "static/media/annalect_logo.png": "/jd-buildier-ai/static/media/annalect_logo.470d04bdc755b0f74073.png",
+    "static/media/omni_logo.png": "/jd-buildier-ai/static/media/omni_logo.96f58815521cea564dfc.png",
+    "index.html": "/jd-buildier-ai/index.html",
+    "main.041f3fc2.css.map": "/jd-buildier-ai/static/css/main.041f3fc2.css.map",
+    "main.35ccc93b.js.map": "/jd-buildier-ai/static/js/main.35ccc93b.js.map",
+    "498.1350dca0.chunk.js.map": "/jd-buildier-ai/static/js/498.1350dca0.chunk.js.map",
+    "703.a723f40b.chunk.js.map": "/jd-buildier-ai/static/js/703.a723f40b.chunk.js.map",
+    "617.a93af0be.chunk.js.map": "/jd-buildier-ai/static/js/617.a93af0be.chunk.js.map",
+    "787.64b67409.chunk.js.map": "/jd-buildier-ai/static/js/787.64b67409.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.041f3fc2.css",
+    "static/js/main.35ccc93b.js"
+  ]
+}

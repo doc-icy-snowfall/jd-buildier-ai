@@ -1,0 +1,271 @@
+.formbg{
+    background: linear-gradient(135deg, #2FC3C7, #9474CB
+    );
+    height: 100vh;
+    display: flex;
+    .formframe{
+        background: #fff;
+        height: 86vh;
+        border-radius: 25px;
+        width: 65%;
+        margin: auto;
+        text-align: left;
+        overflow: auto;
+        .headingSec{
+            margin: 1.5em 2em 0.5em;
+            .headTitle{
+                color: #404040;
+                font-size: 2em;
+                font-weight: 800;
+            }
+            .headDescr{
+
+            }
+        }
+        .boxSec{
+            margin: 0.5em 2em;
+            .MuiGrid-item{
+                margin-bottom: 0.5em;
+            }
+            .formLabel{
+                font-size: 0.9em;
+                color: #2FC3C7;
+            }
+            .ckbox{
+                margin: -0.8em 0em;
+            }
+            .txtbox{
+                width: 90%;
+                .MuiTypography-root{
+                    margin: 5px;
+                }
+                .MuiOutlinedInput-root{
+                    height: 2em;
+                    margin-bottom: 10px;
+                    input:-webkit-autofill {
+                        background-color: #FAFFBD !important;
+                    }
+                }
+            }
+            .icoStyle{
+                margin: 5px;
+            }
+            .btnSec{
+                display: flex;
+                flex-direction: row-reverse;
+                .butnClass{
+                    background: #2FC3C7;
+                    color: #fff;
+                    padding: 0.6em 1em;
+                    border-radius: 25px;
+                }
+            }
+        }
+        
+    }
+}
+.baseTemplate_anna{
+    flex-direction: column !important;
+    width: 650px !important;
+    border: 1px solid gray;
+    margin: auto;
+    .btnsec{
+        margin: 10px;
+        text-align: right;
+    }
+    .annabutn{
+        background: #2FC3C7;
+        border: none;
+        border-radius: 3px 0 0 3px;
+        color: #fff;
+        padding: 5px 10px;
+    }
+    .ombibutn{
+        background: #ffffff;
+        border: 1px solid #2FC3C7;
+        border-radius: 0 3px 3px 0;
+        color: #2FC3C7;
+        padding: 5px 10px;
+        margin-left: -1px;
+    }
+    .bckbutn{
+        margin-left: 15px !important;
+        background: #2fc3c7;
+        border: none;
+        color: #fff;
+        padding: 5px 15px;
+    }
+}
+.baseTemplate_omni{
+    flex-direction: column !important;
+    width: 650px !important;
+    background: #242938;
+    margin: auto;
+    .btnsec{
+        margin: 10px;
+        text-align: right;
+    }
+    .annabutn{
+        background: #242938;
+        border: 1px solid #F69236;
+        border-radius: 3px 0 0 3px;
+        color: #F69236;
+        padding: 5px 10px;
+    }
+    .ombibutn{
+        background: #F69236;
+        border-radius: 0 3px 3px 0;
+        color: #242938;
+        padding: 5px 10px;
+        margin-left: -1px;
+    }
+    .bckbutn{
+        margin-left: 15px !important;
+        background: #F69236;
+        border: none;
+        color: #242938;
+        padding: 5px 15px;
+    }
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+    height: 80%;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f100; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #88888848; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+.btnsec{
+
+}
+.template{
+    width: 555px;
+    margin: auto;
+    text-align: left;
+    margin: 1.5em;
+}
+.hrpsitnSec{
+    text-align: center;
+    min-height: 70px;
+}
+.template_omni{
+    width: 600px;
+    text-align: left;
+    margin: 1.5em !important;
+    background: #242938;
+    color: #fff;
+    .logoImg_omni{
+        align-content: center;
+        align-items: center;
+        justify-content: space-between;
+        .imgSize{
+            margin: 15px 0px;
+        }
+    }
+    .hrpsitnSec{
+        text-align: left;
+    }
+    .orngtxt{
+        color: #F69236;
+        font-weight: 700;
+        font-size: 0.7em;
+        margin-top: 0.5em;
+    }
+    .paratxt{
+        font-size: 0.6em !important;
+        .greentxt{
+            font-size: 1em !important;
+        }
+    }
+    .ultxt{
+        margin: 0px 0px 0px -15px !important
+    }
+    .locSec{
+        .lctnSec{
+            padding-right: 3px !important;
+        }
+        .jdsec{
+           
+            padding: 3px;
+            margin-top: -8px;
+            color: #000;
+            margin-right: -5px;
+            text-align: right;
+            span{
+                background: #F69236;
+                padding: 5px;
+            }
+            
+            .MuiTypography-root{
+                font-size: 0.6em !important;
+            }
+        }
+    }
+    .footer{
+        text-align: center;
+        // margin-top: 30px !important;
+    }
+}
+.logoImg{
+    height: 5vh;
+    .imgSize{
+        width: 20%;
+        opacity: 50%;
+    }
+}
+.greentxt{
+    color: #2fc3c6;
+    font-weight: 700 !important;
+    font-size: 0.7em !important;
+    margin-top: 0.5em !important;
+}
+.paratxt{
+    font-size: 0.6em !important;
+    .greentxt{
+        font-size: 1em !important;
+    }
+}
+.ultxt{
+    margin: 0px 0px 0px -15px !important
+}
+.locSec{
+    min-height: 90px;
+    .lctnSec{
+        padding-right: 3px !important;
+        border-left: 1px solid;
+        .paratxt{
+            font-size: 0.6em !important;
+            padding: 1em 0em 1em 1em;
+        }
+    }
+    .jdsec{
+        padding-left: 2em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .MuiTypography-root{
+            font-size: 0.6em !important;
+        }
+    }
+}
+.rlsnrespo{
+    min-height: 160px;
+}
+
+.footer{
+    text-align: center;
+    // margin-top: 30px !important;
+}

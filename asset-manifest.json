@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jd-buildier-ai/static/css/main.078380c8.css",
-    "main.js": "/jd-buildier-ai/static/js/main.2d110f1b.js",
+    "main.css": "/jd-buildier-ai/static/css/main.6dac5a2c.css",
+    "main.js": "/jd-buildier-ai/static/js/main.b28baa65.js",
     "static/js/498.1350dca0.chunk.js": "/jd-buildier-ai/static/js/498.1350dca0.chunk.js",
     "static/js/703.a723f40b.chunk.js": "/jd-buildier-ai/static/js/703.a723f40b.chunk.js",
     "static/js/617.a93af0be.chunk.js": "/jd-buildier-ai/static/js/617.a93af0be.chunk.js",
@@ -9,15 +9,15 @@
     "static/media/annalect_logo.png": "/jd-buildier-ai/static/media/annalect_logo.470d04bdc755b0f74073.png",
     "static/media/omni_logo.png": "/jd-buildier-ai/static/media/omni_logo.96f58815521cea564dfc.png",
     "index.html": "/jd-buildier-ai/index.html",
-    "main.078380c8.css.map": "/jd-buildier-ai/static/css/main.078380c8.css.map",
-    "main.2d110f1b.js.map": "/jd-buildier-ai/static/js/main.2d110f1b.js.map",
+    "main.6dac5a2c.css.map": "/jd-buildier-ai/static/css/main.6dac5a2c.css.map",
+    "main.b28baa65.js.map": "/jd-buildier-ai/static/js/main.b28baa65.js.map",
     "498.1350dca0.chunk.js.map": "/jd-buildier-ai/static/js/498.1350dca0.chunk.js.map",
     "703.a723f40b.chunk.js.map": "/jd-buildier-ai/static/js/703.a723f40b.chunk.js.map",
     "617.a93af0be.chunk.js.map": "/jd-buildier-ai/static/js/617.a93af0be.chunk.js.map",
     "787.64b67409.chunk.js.map": "/jd-buildier-ai/static/js/787.64b67409.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.078380c8.css",
-    "static/js/main.2d110f1b.js"
+    "static/css/main.6dac5a2c.css",
+    "static/js/main.b28baa65.js"
   ]
 }

@@ -70,6 +70,7 @@ const Form = ({handlePageTemplate}) => {
         }
     
     }
+    
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -94,7 +95,7 @@ const Form = ({handlePageTemplate}) => {
           };
     
           await axios.post('http://localhost:5000/items', newItem);
-          alert('Item created successfully!');
+        //   alert('Item created successfully!');
         } catch (error) {
         //   console.error('Error creating item:', error);
         }

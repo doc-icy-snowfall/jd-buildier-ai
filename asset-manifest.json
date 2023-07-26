@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jd-buildier-ai/static/css/main.9c27f0f5.css",
-    "main.js": "/jd-buildier-ai/static/js/main.b28baa65.js",
+    "main.js": "/jd-buildier-ai/static/js/main.7f471aad.js",
     "static/js/498.1350dca0.chunk.js": "/jd-buildier-ai/static/js/498.1350dca0.chunk.js",
     "static/js/703.a723f40b.chunk.js": "/jd-buildier-ai/static/js/703.a723f40b.chunk.js",
     "static/js/617.a93af0be.chunk.js": "/jd-buildier-ai/static/js/617.a93af0be.chunk.js",
@@ -10,7 +10,7 @@
     "static/media/omni_logo.png": "/jd-buildier-ai/static/media/omni_logo.96f58815521cea564dfc.png",
     "index.html": "/jd-buildier-ai/index.html",
     "main.9c27f0f5.css.map": "/jd-buildier-ai/static/css/main.9c27f0f5.css.map",
-    "main.b28baa65.js.map": "/jd-buildier-ai/static/js/main.b28baa65.js.map",
+    "main.7f471aad.js.map": "/jd-buildier-ai/static/js/main.7f471aad.js.map",
     "498.1350dca0.chunk.js.map": "/jd-buildier-ai/static/js/498.1350dca0.chunk.js.map",
     "703.a723f40b.chunk.js.map": "/jd-buildier-ai/static/js/703.a723f40b.chunk.js.map",
     "617.a93af0be.chunk.js.map": "/jd-buildier-ai/static/js/617.a93af0be.chunk.js.map",
@@ -18,6 +18,6 @@
   },
   "entrypoints": [
     "static/css/main.9c27f0f5.css",
-    "static/js/main.b28baa65.js"
+    "static/js/main.7f471aad.js"
   ]
 }

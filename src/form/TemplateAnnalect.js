@@ -73,17 +73,21 @@ const TemplateAnnalect = ({handlePageForm}) => {
         <Grid item className='abtCompny'>
             <Typography className='greentxt'>About Us</Typography>
             <Typography  className='paratxt'>
-                We are an integral part of Annalect Global and Omnicom Group, the second largest advertising agency holding
-                company in the world in terms of revenue and is the leading global marketing communications company. Our
-                portfolio includes: three global advertising agency networks: BBDO, DDB and TBWA; three of the world’s premium
-                media services: OMD, PHD and Hearts & Science.
+                We are an integral part of Annalect Global and Omnicom Group, one of the largest media 
+                and advertising agency holding companies in the world. Omnicom’s branded networks and 
+                numerous specialty firms provide advertising, strategic media planning and buying, digital 
+                and interactive marketing, direct and promotional marketing, public relations, and other 
+                specialty communications services. Our agency brands are consistently recognized as being 
+                among the world’s creative best.
             </Typography>
             <Typography  className='paratxt'>
-                Annalect India plays a key role for our group companies and global agencies by providing stellar products and
-                services in areas of Creative Services, Technology, Marketing Science (data & analytics) and Media Services. We
-                currently have 800+ awesome colleagues (in Annalect India) who are committed to solve our clients’ pressing
-                business issues. We are growing rapidly and looking for talented professionals like you to be part of this journey.
-                Let us build this, together!
+                Annalect India plays a key role for our group companies and global agencies by providing 
+                stellar products and services in areas of Creative Services, Technology, Marketing Science 
+                (data & analytics), Market Research, Business Support Services, Media Services, Consulting 
+                & Advisory Services. We currently have 2500+ awesome colleagues (in Annalect India) who are 
+                committed to solve our clients’ pressing business issues. We are growing rapidly and 
+                looking for talented professionals like you to be part of this journey. Let us build this, 
+                together
             </Typography>
         </Grid>
         <Grid container className='rlsnrespo'>

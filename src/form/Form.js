@@ -150,20 +150,6 @@ const Form = ({handlePageTemplate}) => {
                 <Typography className='headTitle'>Job Description Maker</Typography>
             </div>
             <Box className='boxSec'>
-                {/* <Grid container>
-                    <Grid item xs={12} md={6}>
-                        <Typography className='formLabel'>Position</Typography>
-                        <TextField name='position' value={positionData.position} onChange={getFormData} 
-                        className='txtbox' id="standard-basic" placeholder='Ex-Grafics Designer' 
-                        variant="outlined" autoComplete='off' inputProps={{ maxLength: 25 }} />
-                    </Grid>
-                    <Grid item xs={12} md={6}>
-                        <Typography className='formLabel'>Sub-Position</Typography>
-                        <TextField name='sub_position' value={positionData.sub_position} 
-                        onChange={getFormData} className='txtbox' id="standard-basic" inputProps={{ maxLength: 35 }}
-                        placeholder='Ex-Grafics Designer' variant="outlined" autoComplete='off' />
-                    </Grid>
-                </Grid> */}
                 <Grid item>
                         <Typography className='formLabel'>Position</Typography>
                         <TextField name='position' value={positionData.position} onChange={getFormData} 
@@ -232,25 +218,10 @@ const Form = ({handlePageTemplate}) => {
                             name='roles' placeholder='How this role will help them in the future?' 
                             onChange={(e) => handleRoleChange(e, index)} autoComplete='off' inputProps={{ maxLength: 250 }}
                             variant="outlined" />
-                            {exstngRole.length < 4 && <Typography className='icoStyle' variant='span'>
+                            {exstngRole.length < 8 && <Typography className='icoStyle' variant='span'>
                                 <AddCircleOutline onClick={handleRoleAdd}/></Typography>}
                             {exstngRole.length !== 1 && (<Typography className='icoStyle' 
                             variant='span'><RemoveCircleOutline onClick={handleRoleRemove}/></Typography>)}
-                        </Grid>
-                    ))}
-                </Grid>
-                
-                <Grid item>
-                    <Typography className='formLabel'>Desirable (Optional)</Typography>
-                    {bonusPoint.map((singleBonus, index) => (
-                        <Grid container key={index}>
-                            <TextField className='txtbox' id="standard-basic" value={singleBonus.b_point} name='b_point'
-                            placeholder='Having these will make them stand out.' autoComplete='off' inputProps={{ maxLength: 250 }}
-                            onChange={(e) => handleBonusChange(e, index)} variant="outlined" />
-                            {bonusPoint.length < 3 &&<Typography className='icoStyle' variant='span'><AddCircleOutline 
-                            onClick={handleBonusAdd}/></Typography>}
-                            {bonusPoint.length !== 1 && (<Typography className='icoStyle' 
-                            variant='span'><RemoveCircleOutline onClick={handleBonusRemove}/></Typography>)}
                         </Grid>
                     ))}
                 </Grid>
@@ -262,7 +233,7 @@ const Form = ({handlePageTemplate}) => {
                             <TextField className='txtbox' id="standard-basic" value={singleQ_n_R.q_n_R} inputProps={{ maxLength: 250 }} 
                             name='q_n_R' autoComplete='off' onChange={(e) => handleQ_n_RChange(e, index)}
                             placeholder='How this role will help them in the future?' variant="outlined" />
-                            {quaRequ.length <6 && (<Typography className='icoStyle' variant='span'>
+                            {quaRequ.length <8 && (<Typography className='icoStyle' variant='span'>
                                 <AddCircleOutline onClick={handleQ_n_RAdd}/>
                             </Typography>)}
                             {quaRequ.length !== 1 && (
